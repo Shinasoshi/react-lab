@@ -15,7 +15,7 @@ function App() {
     return (
         <div className="container">
             <h1>My favourite movies to watch</h1>
-            <MoviesList movies={movies}></MoviesList>
+            <MoviesList movies={movies}/>
             <MovieForm onMovieSubmit={(movie) => setMovies([...movies, movie])}/>;
         </div>
     )
